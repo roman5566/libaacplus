@@ -1,8 +1,6 @@
 #!/bin/sh
 # an attempt to build libaacplus since homebrew doesn't have
 
-## Enter the ps3toolchain directory.
-cd "`dirname $0`" || { echo "ERROR: Could not enter the ps3toolchain directory."; exit 1; }
 
 ## Create the build directory.
 mkdir -p build && cd build || { echo "ERROR: Could not create the build directory."; exit 1; }
